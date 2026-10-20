@@ -1,0 +1,17 @@
+meta {
+  name: Cambiar contenido txt
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:60091/mensaje
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+  forwardAuthorizationHeader: false
+}

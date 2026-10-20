@@ -1,0 +1,17 @@
+meta {
+  name: Crear imagen
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:60091/imagen
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+  forwardAuthorizationHeader: false
+}

@@ -1,0 +1,16 @@
+meta {
+  name: Obtener contenido txt
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:60091/mensaje
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

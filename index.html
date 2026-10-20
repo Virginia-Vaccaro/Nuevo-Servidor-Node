@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Métodos HTTP</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 2rem;
+        color: #333;
+      }
+
+      h1 {
+        color: #005f99;
+      }
+
+      h2 {
+        margin-top: 1.5rem;
+        color: #444;
+      }
+
+      a {
+        display: inline-block;
+        padding: 8px 14px;
+        background: #007acc;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-top: 0.5rem;
+      }
+
+      a:hover {
+        background: #005f99;
+      }
+
+      form {
+        margin-top: 1rem;
+      }
+
+      button {
+        padding: 8px 14px;
+        background: #28a745;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background: #1e7e34;
+      }
+
+      code {
+        background-color: #eee;
+        padding: 2px 5px;
+        border-radius: 3px;
+        font-family: monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Probador de métodos HTTP</h1>
+
+    <h2>GET</h2>
+    <p>
+      Haciendo clic en el siguiente link, vas a acceder a un GET de la ruta
+      /mensaje :
+      <a href="http://localhost:3000/mensaje" target="_blank"> GET </a>
+    </p>
+
+    <h2>POST</h2>
+    <form action="http://localhost:3000/mensaje" method="POST">
+      <button type="submit">POST</button>
+    </form>
+  </body>
+</html>

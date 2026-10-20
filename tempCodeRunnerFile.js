@@ -1,0 +1,1 @@
+ const data = await fs.readFile("message.txt", "utf8");

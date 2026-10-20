@@ -1,0 +1,17 @@
+meta {
+  name: Eliminar imagen
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:60091/imagen
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+  forwardAuthorizationHeader: false
+}
